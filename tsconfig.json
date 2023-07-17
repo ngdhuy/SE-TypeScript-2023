@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", 
+    "module": "CommonJS", 
+    "strict": true, 
+    "sourceMap": true, 
+    "removeComments": true,
+    "allowJs": false,
+    "outDir": "bin"
+  }, 
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
