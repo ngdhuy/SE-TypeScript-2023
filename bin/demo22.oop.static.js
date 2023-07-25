@@ -7,7 +7,6 @@ class MyShape {
     static print_color() { console.log(MyShape._color); }
     static print_num = () => console.log(MyShape.num);
 }
-console.log(`#count = ${MyShape.#count}`);
 console.log(MyShape.num);
 MyShape.num = 1000;
 MyShape.print_count();
